@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io('https://danhsachonline.herokuapp.com/');
 socket.on('server-gui-ds',data => {
    
     $('#ds').html('');
